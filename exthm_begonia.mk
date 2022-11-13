@@ -23,12 +23,12 @@ $(call inherit-product, device/xiaomi/begonia/device.mk)
 # Inherit from begonia interfaces makefile
 $(call inherit-product, device/xiaomi/begonia/mtk-interfaces.mk)
 
-# Inherit some KK source stuff
-$(call inherit-product, vendor/kogasa/config/common.mk)
+# Inherit some exthm source stuff
+$(call inherit-product, vendor/exthm/config/phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := kogasa_begonia
+PRODUCT_NAME := exthm_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi

@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kogasa_begonia.mk
+    $(LOCAL_DIR)/exthm_begonia.mk
