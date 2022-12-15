@@ -253,6 +253,10 @@ PRODUCT_COPY_FILES += \
 include $(DEVICE_PATH)/vendor_logtag.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# Partitions
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
